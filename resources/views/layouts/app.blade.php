@@ -11,6 +11,33 @@
     <link href="https://fonts.bunny.net/css?family=Nunito" rel="stylesheet">
 
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
+    <!DOCTYPE html><html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistem Informasi Siswa - SMK Fatahillah Cileungsi</title><!-- Bootstrap 5 CSS -->
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Bootstrap Icons CDN -->
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+</head>
+<body class="bg-light"><div class="container py-4">
+
+    @yield('content')
+
+</div>
+
+<!-- Bootstrap 5 JS Bundle -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
+
+
 </head>
 <body>
     <div id="app">
